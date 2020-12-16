@@ -3,29 +3,25 @@ body{
     padding: 0;
     background-color: #ecf0f1;
     color: #ffffff;
+    font-size: 55px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.btn {
-    cursor: pointer;
+.js-toDoForm input {
+  padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius:10px;
+  background-color: transparent;
+  color: #ffffff;
 }
 
-h1 {
+.js-toDoForm ::placeholder {
     color: #ffffff;
-    transition: color 0.5s ease-in-out;
-}
-
-.clicked {
-    color: #7f8c8d;
-    transition: color 0.5s ease-in-out;
-}
-
-.form,
-.greetings {
-    display: none;
-}
-
-.showing {
-    display: block;
+    opacity: 1;
 }
 
 @keyframes fadeIn{
@@ -45,4 +41,30 @@ h1 {
     height: 100%;
     z-index: -1;
     animation: fadeIn 1s linear;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.js-clock {
+    color: #ffffff;
+    transition: color 0.5s ease-in-out;
+    font-size: 200;
+}
+h1 {
+    font-size: 100;
+}
+
+.clicked {
+    color: #7f8c8d;
+    transition: color 0.5s ease-in-out;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+.showing {
+    display: block;
 }

@@ -1,7 +1,7 @@
 const weather = document.querySelector('.js-weather');
 
 const COORDS = 'coords';
-const API_KEY ="";
+const API_KEY ="4f43ce34c2531fd8e0f6593c9fb5e2b7";
 
 function getWeather(lat, long){
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${API_KEY}&units=imperial`)
