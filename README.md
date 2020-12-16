@@ -1,6 +1,7 @@
 # momentum-soo
 
 https://momentumdash.com/
-Attempt to recreate momentum chrome extension called momentum
+
+Recreation of momentum chrome extension called momentum using vanilla Javascript
 
 checklist(to-do list), calendar, weather web-platform
